@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="
     <link
       rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    " />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,34 +22,38 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container header-container">
-        <nav>
-          <div class="page-nav">
-            <a class="logo header-logo" href="./index.html"
-              >Web<span class="logo-part">Studio</span></a
-            >
-            <ul class="menu">
-              <li><a class="navigation-item" href="./index.html">Studio</a></li>
-              <li><a class="navigation-item" href="">Portfolio</a></li>
-              <li><a class="navigation-item" href="">Contacts</a></li>
+    <header class="header">
+      <div class="container">
+        <div class="page-container">
+          <nav class="header-nav">
+            <div class="page-nav">
+              <a class="logo" href="./index.html"
+                >Web<span class="logo-part">Studio</span></a
+              >
+              <ul class="menu">
+                <li>
+                  <a class="navigation-item" href="./index.html">Studio</a>
+                </li>
+                <li><a class="navigation-item" href="">Portfolio</a></li>
+                <li><a class="navigation-item" href="">Contacts</a></li>
+              </ul>
+            </div>
+          </nav>
+          <address class="contact-info">
+            <ul class="contact-list">
+              <li>
+                <a class="contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                ><br />
+              </li>
+              <li>
+                <a class="contacts" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                ><br />
+              </li>
             </ul>
-          </div>
-        </nav>
-        <address class="contact-info">
-          <ul class="contact-list">
-            <li>
-              <a class="contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              ><br />
-            </li>
-            <li>
-              <a class="contacts" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              ><br />
-            </li>
-          </ul>
-        </address>
+          </address>
+        </div>
       </div>
     </header>
     <main>
