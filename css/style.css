@@ -37,20 +37,13 @@ img{
     display: flex;
 }
 
-.benefits{
-    border-bottom: 1px solid #e7e9fc;
-}
+
 .header-nav{
     display: flex;
     align-items: center;
     
 }
 
-.page-nav{
-    display: flex;
-    justify-content: space-between;
-
-}
 .menu{
     display: flex;
     gap: 40px;
@@ -208,7 +201,7 @@ img{
 }
 
 .benefits-item{
-    width: calc((100%-24px*3) / 4);
+    width: calc((100% - 24px*3) / 4);
 }
 
 .benefits{
@@ -314,7 +307,6 @@ img{
 }
 
 .portfolio-list-content{
-    padding-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -347,7 +339,7 @@ img{
 }
 
 .footer-text{
-    max-width: 246px;
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
